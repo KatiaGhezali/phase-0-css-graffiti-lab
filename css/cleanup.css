@@ -1,1 +1,113 @@
 /* write your override styles here */
+
+
+
+div#wall > .tag-1 {
+  background: url(../images/tag-1.png) no-repeat;
+  z-index: 7;
+  display: block;
+}
+
+
+div#wall > #tag-2,
+div#wall > #tag-3,
+div#wall > #tag-4,
+div#wall > #tag-5,
+div#wall > #tag-6,
+div#wall > #tag-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980px;
+  height: 622px;
+}
+
+
+div#wall > article,
+div#wall > aside,
+div#wall > details,
+div#wall > div,
+div#wall > dt,
+div#wall > figcaption,
+div#wall > footer,
+div#wall > form,
+div#wall > header,
+div#wall > hgroup,
+div#wall > html,
+div#wall > main,
+div#wall > nav,
+div#wall > section,
+div#wall > summary {
+  display: block;
+}
+
+
+div#wall > address,
+div#wall > article,
+div#wall > aside,
+div#wall > blockquote,
+div#wall > body,
+div#wall > caption,
+div#wall > center,
+div#wall > col,
+div#wall > colgroup,
+div#wall > dd,
+div#wall > dir,
+div#wall > div,
+div#wall > dl,
+div#wall > dt,
+div#wall > fieldset,
+div#wall > figcaption,
+div#wall > figure,
+div#wall > footer,
+div#wall > form,
+div#wall > h1,
+div#wall > h2,
+div#wall > h3,
+div#wall > h4,
+div#wall > h5,
+div#wall > h6,
+div#wall > header,
+div#wall > hgroup,
+div#wall > hr,
+div#wall > html,
+div#wall > legend,
+div#wall > li,
+div#wall > listing,
+div#wall > main,
+div#wall > marquee,
+div#wall > menu,
+div#wall > nav,
+div#wall > noframes,
+div#wall > ol,
+div#wall > p,
+div#wall > plaintext,
+div#wall > pre,
+div#wall > section,
+div#wall > summary,
+div#wall > table,
+div#wall > tbody,
+div#wall > td,
+div#wall > tfoot,
+div#wall > th,
+div#wall > thead,
+div#wall > tr,
+div#wall > ul,
+div#wall > xmp {
+  unicode-bidi: isolate;
+}
+
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+:root {
+  color: CanvasText;
+}
+
+
+
+
